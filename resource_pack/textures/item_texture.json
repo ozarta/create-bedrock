@@ -1,0 +1,48 @@
+{
+  "resource_pack_name": "bedrockworks",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "bedrockworks_gear": {
+      "textures": "textures/items/gear"
+    },
+    "bedrockworks_shaft": {
+      "textures": "textures/items/shaft"
+    },
+    "bedrockworks_guidebook": {
+      "textures": "textures/items/guidebook"
+    },
+    "bedrockworks_large_gear": {
+      "textures": "textures/items/large_gear"
+    },
+    "bedrockworks_gearbox": {
+      "textures": "textures/items/gearbox"
+    },
+    "bedrockworks_water_wheel": {
+      "textures": "textures/items/water_wheel"
+    },
+    "bedrockworks_test_source": {
+      "textures": "textures/items/test_source"
+    },
+    "bedrockworks_speed_meter": {
+      "textures": "textures/items/speed_meter"
+    },
+    "bedrockworks_stress_meter": {
+      "textures": "textures/items/stress_meter"
+    },
+    "bedrockworks_mechanical_press": {
+      "textures": "textures/items/mechanical_press"
+    },
+    "bedrockworks_iron_sheet": {
+      "textures": "textures/items/iron_sheet"
+    },
+    "bedrockworks_mechanical_funnel": {
+      "textures": "textures/items/mechanical_funnel"
+    },
+    "bedrockworks_copper_sheet": {
+      "textures": "textures/items/copper_sheet"
+    },
+    "bedrockworks_golden_sheet": {
+      "textures": "textures/items/golden_sheet"
+    }
+  }
+}

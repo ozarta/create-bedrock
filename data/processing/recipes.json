@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bedrockworks:pressing/iron_sheet",
+    "process": "pressing",
+    "machine": "bedrockworks:mechanical_press",
+    "inputs": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "bedrockworks:iron_sheet",
+        "count": 1
+      }
+    ],
+    "work": 240,
+    "minRpm": 1,
+    "maxRpm": 256,
+    "heat": "none",
+    "source": "src/generated/resources/data/create/recipe/pressing/iron_ingot.json"
+  },
+  {
+    "id": "bedrockworks:pressing/copper_sheet",
+    "process": "pressing",
+    "machine": "bedrockworks:mechanical_press",
+    "inputs": [
+      {
+        "item": "minecraft:copper_ingot",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "bedrockworks:copper_sheet",
+        "count": 1
+      }
+    ],
+    "work": 240,
+    "minRpm": 1,
+    "maxRpm": 256,
+    "heat": "none",
+    "source": "src/generated/resources/data/create/recipe/pressing/copper_ingot.json"
+  },
+  {
+    "id": "bedrockworks:pressing/golden_sheet",
+    "process": "pressing",
+    "machine": "bedrockworks:mechanical_press",
+    "inputs": [
+      {
+        "item": "minecraft:gold_ingot",
+        "count": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "bedrockworks:golden_sheet",
+        "count": 1
+      }
+    ],
+    "work": 240,
+    "minRpm": 1,
+    "maxRpm": 256,
+    "heat": "none",
+    "source": "src/generated/resources/data/create/recipe/pressing/gold_ingot.json"
+  }
+]

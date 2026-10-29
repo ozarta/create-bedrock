@@ -1,0 +1,1 @@
+decodeProgress valida la lectura JSON sin crear reclamaciones de objetos. El journal v1 vive en el adaptador de prensa; solo posee progreso, nunca inventarios. Persistencia nativa y crash/rollback requieren pruebas de juego. Véase docs/PROBLEMAS_CONOCIDOS.md.

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bedrockworks:gear_display",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/gear"
+      },
+      "geometry": {
+        "default": "geometry.bedrockworks.gear"
+      },
+      "animations": {
+        "spin": "animation.bedrockworks.rotation"
+      },
+      "scripts": {
+        "animate": [
+          "spin"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.bedrockworks.mechanical"
+      ]
+    }
+  }
+}

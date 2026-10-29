@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bedrockworks:speed_meter",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

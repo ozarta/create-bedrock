@@ -1,0 +1,85 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrockworks:stress_meter",
+      "states": {
+        "bedrockworks:axis": [
+          "y",
+          "x",
+          "z"
+        ],
+        "bedrockworks:brake": [
+          0,
+          8,
+          64
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.bedrockworks.stress_meter_base",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bedrockworks_stress_meter",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 4
+      },
+      "minecraft:loot": "loot_tables/blocks/stress_meter.json",
+      "minecraft:tick": {
+        "interval_range": [
+          20,
+          20
+        ],
+        "looping": true
+      },
+      "bedrockworks:kinetic": {},
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.bedrockworks.stress_meter",
+        "material_instances": {
+          "*": {
+            "texture": "bedrockworks_stress_meter",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('bedrockworks:axis') == 'x'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              -90
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('bedrockworks:axis') == 'z'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

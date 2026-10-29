@@ -1,0 +1,19 @@
+{
+  "simulation": "Node world port; Minecraft not executed",
+  "wheel": {
+    "rpm": 8,
+    "theoreticalRpm": 8,
+    "capacity": 256,
+    "stress": 128,
+    "status": "running",
+    "members": 11
+  },
+  "output": {
+    "rpm": -16,
+    "theoreticalRpm": -16,
+    "capacity": 256,
+    "stress": 128,
+    "status": "running",
+    "members": 11
+  }
+}

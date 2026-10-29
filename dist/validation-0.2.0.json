@@ -1,0 +1,20 @@
+{
+  "artifact": "dist/create-bedrock-dev-0.2.0.mcaddon",
+  "bytes": 55341,
+  "sha256": "92c40b25653dcf96626908d9f3d189b59bc39d036ea508569d5597f4c230deb9",
+  "reproducible_same_toolchain": true,
+  "node_tests_passed": 43,
+  "python_tests_passed": 2,
+  "minecraft_tested": false,
+  "realms_tested": false,
+  "packs": {
+    "behavior_pack.mcpack": {
+      "files": 60,
+      "uuid": "f051ef04-2ffb-49df-8098-cfce32bc1836"
+    },
+    "resource_pack.mcpack": {
+      "files": 62,
+      "uuid": "be048d27-b904-47e7-885f-c0d455a3fe28"
+    }
+  }
+}

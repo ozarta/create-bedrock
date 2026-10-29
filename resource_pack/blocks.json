@@ -1,0 +1,37 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "bedrockworks:gear": {
+    "sound": "metal"
+  },
+  "bedrockworks:shaft": {
+    "sound": "metal"
+  },
+  "bedrockworks:large_gear": {
+    "sound": "metal"
+  },
+  "bedrockworks:gearbox": {
+    "sound": "metal"
+  },
+  "bedrockworks:water_wheel": {
+    "sound": "metal"
+  },
+  "bedrockworks:test_source": {
+    "sound": "metal"
+  },
+  "bedrockworks:speed_meter": {
+    "sound": "metal"
+  },
+  "bedrockworks:stress_meter": {
+    "sound": "metal"
+  },
+  "bedrockworks:mechanical_press": {
+    "sound": "metal"
+  },
+  "bedrockworks:mechanical_funnel": {
+    "sound": "metal"
+  }
+}

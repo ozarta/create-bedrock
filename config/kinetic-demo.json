@@ -1,0 +1,22 @@
+{
+  "origin": "relative to the executor; use only an empty backed-up test world",
+  "blocks": [
+    {"x":0,"y":1,"z":0,"kind":"water_wheel","axis":"x"},
+    {"x":1,"y":1,"z":0,"kind":"shaft","axis":"x"},
+    {"x":2,"y":1,"z":0,"kind":"shaft","axis":"x"},
+    {"x":3,"y":1,"z":0,"kind":"large_gear","axis":"x"},
+    {"x":3,"y":2,"z":1,"kind":"gear","axis":"x"},
+    {"x":4,"y":2,"z":1,"kind":"shaft","axis":"x"},
+    {"x":5,"y":2,"z":1,"kind":"speed_meter","axis":"x"},
+    {"x":6,"y":2,"z":1,"kind":"stress_meter","axis":"x","impact":8},
+    {"x":7,"y":2,"z":1,"kind":"gearbox","axis":"y"},
+    {"x":7,"y":2,"z":2,"kind":"shaft","axis":"z"},
+    {"x":7,"y":2,"z":3,"kind":"speed_meter","axis":"z"}
+  ],
+  "water": [
+    {"x":0,"y":1,"z":1,"depth":8},
+    {"x":0,"y":2,"z":1,"depth":8},
+    {"x":0,"y":3,"z":1,"depth":0}
+  ],
+  "expected": {"wheel_rpm":8,"output_rpm":-16,"capacity":256,"stress":128}
+}

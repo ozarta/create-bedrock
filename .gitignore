@@ -1,0 +1,17 @@
+node_modules/
+build/
+__pycache__/
+*.pyc
+.env
+.env.*
+dist/*
+!dist/.gitkeep
+!dist/*.mcaddon
+!dist/*.sha256
+!dist/*.json
+!dist/*.txt
+behavior_pack/scripts/
+
+src/guidebook/generated.ts
+
+src/recipes/generated.ts

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "intro",
+    "names": {
+      "es_MX": "Introducción",
+      "en_US": "Introduction"
+    },
+    "icon": "textures/items/guidebook"
+  },
+  {
+    "id": "materials",
+    "names": {
+      "es_MX": "Materiales",
+      "en_US": "Materials"
+    },
+    "icon": "textures/items/shaft"
+  },
+  {
+    "id": "energy",
+    "names": {
+      "es_MX": "Generación de energía",
+      "en_US": "Power generation"
+    },
+    "icon": "textures/items/water_wheel"
+  },
+  {
+    "id": "transmission",
+    "names": {
+      "es_MX": "Engranajes y transmisión",
+      "en_US": "Gears and transmission"
+    },
+    "icon": "textures/items/gear"
+  },
+  {
+    "id": "machines",
+    "names": {
+      "es_MX": "Máquinas",
+      "en_US": "Machines"
+    },
+    "icon": "textures/items/gearbox"
+  },
+  {
+    "id": "processing",
+    "names": {
+      "es_MX": "Procesamiento",
+      "en_US": "Processing"
+    },
+    "icon": "textures/items/large_gear"
+  },
+  {
+    "id": "transport",
+    "names": {
+      "es_MX": "Transporte de objetos",
+      "en_US": "Item transport"
+    },
+    "icon": "textures/items/shaft"
+  },
+  {
+    "id": "automation",
+    "names": {
+      "es_MX": "Automatización",
+      "en_US": "Automation"
+    },
+    "icon": "textures/items/stress_meter"
+  },
+  {
+    "id": "mobile",
+    "names": {
+      "es_MX": "Construcciones móviles",
+      "en_US": "Moving structures"
+    },
+    "icon": "textures/items/gearbox"
+  },
+  {
+    "id": "trains",
+    "names": {
+      "es_MX": "Trenes",
+      "en_US": "Trains"
+    },
+    "icon": "textures/items/large_gear"
+  },
+  {
+    "id": "tutorials",
+    "names": {
+      "es_MX": "Tutoriales",
+      "en_US": "Tutorials"
+    },
+    "icon": "textures/items/guidebook"
+  }
+]

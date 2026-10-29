@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "repository": "https://github.com/Creators-of-Create/Create",
+    "requested_version": "6.0.10",
+    "minecraft_java": "1.21.1",
+    "verified_commit": "ac0c444d9828da3453ae8cc65338e8de063286fb",
+    "verified_tag": "mc1.21.1-6.0.10"
+  },
+  "bedrock": {
+    "requested_version": "26.60",
+    "verified_stable_version": "1.26.60.5",
+    "server_module": "2.11.0",
+    "server_ui_module": "2.3.0"
+  },
+  "release_gates": {
+    "source_verified": true,
+    "licenses_reviewed": false,
+    "stable_api_verified": true,
+    "windows_tested": false,
+    "realms_tested": false
+  },
+  "status": "QA_0_4_2_AUTOMATION_PASSED_WINDOWS_REALMS_PENDING",
+  "evidence": {
+    "bedrock_samples_commit": "15701fa9c13923f12662984c32c124327e40e3d3",
+    "microsoftdocs_main_observed": "1ee68c332206196f4fa177c32b55a0f5dad54354",
+    "runtime_verified": false,
+    "create_scope": "Kinetic subset, LICENSE, all 1884 materialized recipe JSON plus 8 runtime family analyses; runtime registry enumeration pending",
+    "qa_versions": "docs/evidencia/versiones-0.4.2.json"
+  }
+}

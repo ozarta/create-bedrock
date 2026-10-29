@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrockworks:craft_gearbox"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrockworks:gear"
+      },
+      {
+        "item": "bedrockworks:gear"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "bedrockworks:gearbox",
+      "count": 1
+    }
+  }
+}

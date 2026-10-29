@@ -1,0 +1,13 @@
+import { readFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+import { createDemo,settleDemo } from '../build/scripts/kinetic/demo.js';
+import { key } from '../build/scripts/kinetic/model.js';
+const fixture=JSON.parse(readFileSync('config/kinetic-demo.json','utf8'));
+const {controller,positions}=createDemo(fixture);
+settleDemo(controller);
+const wheel=controller.graph.state(key(positions[0])),output=controller.graph.state(key(positions.at(-1)));
+assert.equal(wheel.rpm,fixture.expected.wheel_rpm);
+assert.equal(output.rpm,fixture.expected.output_rpm);
+assert.equal(output.capacity,fixture.expected.capacity);
+assert.equal(output.stress,fixture.expected.stress);
+console.log(JSON.stringify({simulation:'Node world port; Minecraft not executed',wheel,output},null,2));

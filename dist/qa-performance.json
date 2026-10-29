@@ -1,0 +1,45 @@
+{
+  "runtime": "v24.19.0",
+  "platform": "linux",
+  "scope": "Synthetic V8/Node; NOT Minecraft or Realms; single run, includes JIT/GC noise; heap deltas approximate",
+  "graph": [
+    {
+      "nodes": 100,
+      "seedMs": 4.827354999999997,
+      "solveMs": 3.1607249999999993,
+      "maxStepMs": 1.8052059999999983,
+      "operations": 403,
+      "calls": 4,
+      "retainedHeapDeltaBytes": 121000
+    },
+    {
+      "nodes": 1000,
+      "seedMs": 9.83449199999999,
+      "solveMs": 8.94685100000001,
+      "maxStepMs": 1.3985030000000052,
+      "operations": 4003,
+      "calls": 32,
+      "retainedHeapDeltaBytes": 389320
+    },
+    {
+      "nodes": 3000,
+      "seedMs": 20.657579,
+      "solveMs": 23.81937599999999,
+      "maxStepMs": 1.7599790000000013,
+      "operations": 12003,
+      "calls": 94,
+      "retainedHeapDeltaBytes": 948824
+    }
+  ],
+  "catalog": {
+    "jsonBytes": 3177260,
+    "items": 1873,
+    "recipes": 1901,
+    "parseAndIndexMs": 34.53021099999998,
+    "searches": 100,
+    "searchMs": 20.546675000000022,
+    "retainedHeapDeltaBytes": 6518832
+  },
+  "nativeCpuMemory": "not measured",
+  "nativeTps": "not measured"
+}

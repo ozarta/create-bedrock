@@ -1,0 +1,15 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "bedrockworks.mechanical_click": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/mechanical_click",
+          "volume": 0.5,
+          "pitch": 1
+        }
+      ]
+    }
+  }
+}

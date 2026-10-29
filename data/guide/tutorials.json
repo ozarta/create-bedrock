@@ -1,0 +1,376 @@
+[
+  {
+    "id": "first_network",
+    "names": {
+      "es_MX": "Primera red: rueda, ejes y engranajes",
+      "en_US": "First network: wheel, shafts and gears"
+    },
+    "steps": [
+      {
+        "names": {
+          "es_MX": "Preparar materiales",
+          "en_US": "Prepare materials"
+        },
+        "body": {
+          "es_MX": "Consulta las recetas enlazadas y fabrica rueda, ejes, engranajes y medidores. En esta versión son recetas originales del add-on.",
+          "en_US": "Read the linked recipes and craft the wheel, shafts, gears and gauges. These are original add-on recipes."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:water_wheel",
+          "bedrockworks:shaft",
+          "bedrockworks:large_gear",
+          "bedrockworks:gear",
+          "bedrockworks:speed_meter"
+        ]
+      },
+      {
+        "names": {
+          "es_MX": "Orientar la rueda",
+          "en_US": "Orient the wheel"
+        },
+        "body": {
+          "es_MX": "Coloca la rueda con eje X. Las caras este/oeste eligen X; agacharse e interactuar alterna X/Y/Z.",
+          "en_US": "Place an X-axis wheel. East/west faces select X; sneak-interact cycles X/Y/Z."
+        },
+        "image": "textures/ui/manual_water",
+        "related": [
+          "bedrockworks:water_wheel"
+        ],
+        "check": {
+          "itemId": "bedrockworks:water_wheel",
+          "mode": "look",
+          "axis": "x"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Hacer caer agua",
+          "en_US": "Make water fall"
+        },
+        "body": {
+          "es_MX": "Construye un canal que haga caer agua por el lado Z+ de la rueda y mantenga agua justo encima. No sirve agua quieta. Al comprobar, mira la rueda: debe tener rotación efectiva.",
+          "en_US": "Build a channel that drops water on the wheel’s Z+ side and keeps water directly above. Still water does not work. Look at the wheel when checking: it must have effective rotation."
+        },
+        "image": "textures/ui/manual_water",
+        "related": [
+          "bedrockworks:water_wheel"
+        ],
+        "check": {
+          "itemId": "bedrockworks:water_wheel",
+          "mode": "running",
+          "rpm": 8,
+          "axis": "x"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Tender ejes",
+          "en_US": "Connect shafts"
+        },
+        "body": {
+          "es_MX": "Desde la rueda, coloca dos ejes hacia X+, con sus extremos alineados. Mira un eje conectado al comprobar.",
+          "en_US": "Place two shafts toward X+ from the wheel, aligned end to end. Look at a connected shaft when checking."
+        },
+        "image": "textures/ui/manual_shaft",
+        "related": [
+          "bedrockworks:shaft"
+        ],
+        "check": {
+          "itemId": "bedrockworks:shaft",
+          "mode": "running",
+          "rpm": 8,
+          "axis": "x"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Cambiar velocidad",
+          "en_US": "Change speed"
+        },
+        "body": {
+          "es_MX": "Coloca un engranaje grande al final y un pequeño una unidad arriba y otra hacia Z+; ambos con eje X. Grande→pequeño debe dar -16 RPM desde la rueda de +8.",
+          "en_US": "Place a large gear at the end and a small gear one block up and one toward Z+; both X-axis. Large→small should give -16 RPM from the +8 wheel."
+        },
+        "image": "textures/ui/manual_gears",
+        "related": [
+          "bedrockworks:large_gear",
+          "bedrockworks:gear"
+        ],
+        "check": {
+          "itemId": "bedrockworks:gear",
+          "mode": "running",
+          "rpm": -16,
+          "axis": "x"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Medir y reproducir la escena",
+          "en_US": "Measure and reproduce the scene"
+        },
+        "body": {
+          "es_MX": "Conecta un medidor de velocidad mediante un eje y mira su lectura. La escena documentada puede colocarse con /function bedrockworks/kinetic_demo SOLO en un mundo de prueba respaldado y el volumen vacío X[-1,8],Y[0,4],Z[-1,4] relativo al ejecutor. El manual no ejecuta ese comando.",
+          "en_US": "Connect a speed gauge through a shaft and inspect its reading. The documented scene can be placed with /function bedrockworks/kinetic_demo ONLY in a backed-up test world with an empty X[-1,8],Y[0,4],Z[-1,4] volume relative to the executor. The guide does not execute that command."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:speed_meter",
+          "bedrockworks:stress_meter",
+          "bedrockworks:gearbox"
+        ],
+        "check": {
+          "itemId": "bedrockworks:speed_meter",
+          "mode": "running",
+          "rpm": -16
+        }
+      }
+    ]
+  },
+  {
+    "id": "overload",
+    "names": {
+      "es_MX": "Detectar y corregir sobrecarga",
+      "en_US": "Detect and recover from overload"
+    },
+    "steps": [
+      {
+        "names": {
+          "es_MX": "Leer esfuerzo",
+          "en_US": "Read stress"
+        },
+        "body": {
+          "es_MX": "Conecta un medidor de esfuerzo después del cambio grande→pequeño. Cada interacción normal alterna freno 0/8/64 SU por RPM.",
+          "en_US": "Connect a stress gauge after a large→small conversion. Each normal interaction cycles a 0/8/64 SU per RPM brake."
+        },
+        "image": "textures/ui/manual_brake",
+        "related": [
+          "bedrockworks:stress_meter"
+        ],
+        "check": {
+          "itemId": "bedrockworks:stress_meter",
+          "mode": "look"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Aplicar el freno",
+          "en_US": "Apply the brake"
+        },
+        "body": {
+          "es_MX": "Con una sola rueda y salida a -16 RPM, selecciona freno 64. La demanda de 1024 SU supera 256 SU y debe detener toda la red.",
+          "en_US": "With one wheel and a -16 RPM output, select brake 64. Its 1024 SU demand exceeds 256 SU and should stop the network."
+        },
+        "image": "textures/ui/manual_brake",
+        "related": [
+          "bedrockworks:water_wheel",
+          "bedrockworks:stress_meter"
+        ],
+        "check": {
+          "itemId": "bedrockworks:stress_meter",
+          "mode": "overloaded",
+          "rpm": 0,
+          "capacity": 256,
+          "stress": 1024
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Recuperar la red",
+          "en_US": "Recover the network"
+        },
+        "body": {
+          "es_MX": "Cambia el freno a 0 o reduce la demanda. Comprueba rotación otra vez. El freno es una extensión de pruebas Bedrock, no una máquina industrial Java.",
+          "en_US": "Set the brake to 0 or reduce demand. Check rotation again. The brake is a Bedrock test extension, not a Java industrial machine."
+        },
+        "image": "textures/ui/manual_shaft",
+        "related": [
+          "bedrockworks:stress_meter"
+        ],
+        "check": {
+          "itemId": "bedrockworks:stress_meter",
+          "mode": "running"
+        }
+      }
+    ]
+  },
+  {
+    "id": "disconnect",
+    "names": {
+      "es_MX": "Separar una red de forma segura",
+      "en_US": "Safely split a network"
+    },
+    "steps": [
+      {
+        "names": {
+          "es_MX": "Red en marcha",
+          "en_US": "Running network"
+        },
+        "body": {
+          "es_MX": "Parte de una rueda conectada a varios ejes y un medidor. La comprobación requiere que mires el medidor en marcha.",
+          "en_US": "Start with a wheel connected through several shafts to a gauge. The check requires looking at a running gauge."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:speed_meter",
+          "bedrockworks:shaft"
+        ],
+        "check": {
+          "itemId": "bedrockworks:speed_meter",
+          "mode": "running"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Romper el puente",
+          "en_US": "Break the bridge"
+        },
+        "body": {
+          "es_MX": "Rompe un eje intermedio entre fuente y medidor. Espera el recálculo y mira el medidor de la mitad sin fuente; debe quedar inactivo.",
+          "en_US": "Break an intermediate shaft between source and gauge. Wait for recalculation and look at the gauge in the sourceless half; it should be idle."
+        },
+        "image": "textures/ui/manual_disconnect",
+        "related": [
+          "bedrockworks:shaft",
+          "bedrockworks:speed_meter"
+        ],
+        "check": {
+          "itemId": "bedrockworks:speed_meter",
+          "mode": "idle"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Reconectar",
+          "en_US": "Reconnect"
+        },
+        "body": {
+          "es_MX": "Vuelve a colocar el eje con la orientación correcta. La comprobación exige que el medidor recupere rotación real.",
+          "en_US": "Replace the shaft with the correct axis. The check requires the gauge to recover actual rotation."
+        },
+        "image": "textures/ui/manual_shaft",
+        "related": [
+          "bedrockworks:shaft",
+          "bedrockworks:speed_meter"
+        ],
+        "check": {
+          "itemId": "bedrockworks:speed_meter",
+          "mode": "running"
+        }
+      }
+    ]
+  },
+  {
+    "id": "first_factory",
+    "names": {
+      "es_MX": "Primera fábrica de láminas sin comandos",
+      "en_US": "First sheet factory without commands"
+    },
+    "steps": [
+      {
+        "names": {
+          "es_MX": "Materiales y recetas",
+          "en_US": "Materials and recipes"
+        },
+        "body": {
+          "es_MX": "Fabrica una prensa, una rueda, dos ejes, dos embudos y tres barriles. Usa las recetas enlazadas; no necesitas comandos ni la fuente de desarrollo. Prepara un lingote de hierro sin nombre personalizado.",
+          "en_US": "Craft a press, wheel, two shafts, two funnels and three barrels using the linked recipes. No commands or development source are needed. Prepare one unmodified iron ingot."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:mechanical_press",
+          "bedrockworks:water_wheel",
+          "bedrockworks:shaft",
+          "bedrockworks:mechanical_funnel"
+        ]
+      },
+      {
+        "names": {
+          "es_MX": "Montar la prensa",
+          "en_US": "Place the press"
+        },
+        "body": {
+          "es_MX": "Toma como origen la prensa (0,2,0). Coloca un barril justo debajo (0,1,0), ejes en (1,2,0) y (2,2,0), y rueda en (3,2,0). Todos los ejes en X. Mira la prensa para comprobar su colocación.",
+          "en_US": "Use the press at (0,2,0) as origin. Put a barrel directly below at (0,1,0), shafts at (1,2,0) and (2,2,0), and a wheel at (3,2,0). Align all axles to X. Look at the press to check placement."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:mechanical_press",
+          "bedrockworks:shaft",
+          "bedrockworks:water_wheel"
+        ],
+        "check": {
+          "itemId": "bedrockworks:mechanical_press",
+          "mode": "look",
+          "axis": "x"
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Energía hidráulica",
+          "en_US": "Water power"
+        },
+        "body": {
+          "es_MX": "Haz caer agua por Z+ de la rueda, con agua arriba de la celda descendente. Contén el canal. La prensa debe recibir 8 RPM y demandar 64 SU de los 256 SU de la rueda; mira la prensa al comprobar.",
+          "en_US": "Make water fall on the Z+ side of the wheel, with water above the falling cell. Contain the channel. The press should receive 8 RPM and draw 64 SU from the wheel’s 256 SU; look at the press when checking."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:mechanical_press",
+          "bedrockworks:water_wheel"
+        ],
+        "check": {
+          "itemId": "bedrockworks:mechanical_press",
+          "mode": "running",
+          "axis": "x",
+          "rpm": 8
+        }
+      },
+      {
+        "names": {
+          "es_MX": "Entrada y salida",
+          "en_US": "Input and output"
+        },
+        "body": {
+          "es_MX": "A la altura Y=1 coloca barriles en X=2 y X=-2; embudos en X=1 y X=-1, ambos hacia oeste. Con mano vacía, agáchate e interactúa para girarlos; interacción normal alterna modo. Configura X=1 como entrada y X=-1 como salida.",
+          "en_US": "At Y=1 place barrels at X=2 and X=-2, and west-facing funnels at X=1 and X=-1. With an empty hand, sneak-interact to rotate; normal interaction switches mode. Set X=1 to input and X=-1 to output."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:mechanical_funnel"
+        ]
+      },
+      {
+        "names": {
+          "es_MX": "Producir y recoger",
+          "en_US": "Produce and collect"
+        },
+        "body": {
+          "es_MX": "Pon un lingote de hierro en el barril X=2. El embudo lo mueve al barril bajo la prensa. Con una fábrica pequeña a 8 RPM, un lingote necesita 240 visitas de proceso (~12 segundos a 20 TPS), más esperas de transporte. Recoge una lámina de hierro del barril X=-2. Esta entrega requiere comprobación manual; el libro no verifica inventarios.",
+          "en_US": "Put one iron ingot in the X=2 barrel. The funnel moves it below the press. In a small factory at 8 RPM, one ingot needs 240 processing visits (~12 seconds at 20 TPS), plus transport waits. Collect an iron sheet from X=-2. Delivery must be checked manually; the guide does not verify inventories."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:iron_sheet",
+          "bedrockworks:copper_sheet",
+          "bedrockworks:golden_sheet"
+        ]
+      },
+      {
+        "names": {
+          "es_MX": "Paradas seguras",
+          "en_US": "Safe stops"
+        },
+        "body": {
+          "es_MX": "Repite con cobre y oro. Rompe un eje durante el proceso: la entrada debe permanecer y el progreso detenerse. Reconecta. Llena el barril de salida: los productos deben permanecer bajo la prensa. No añadas lingotes al slot en proceso: cambiar la pila reinicia su trabajo.",
+          "en_US": "Repeat with copper and gold. Break a shaft during processing: input should remain and progress should pause. Reconnect. Fill the output barrel: products should remain below the press. Do not add ingots to the active slot: changing the stack resets its work."
+        },
+        "image": "textures/ui/manual_overview",
+        "related": [
+          "bedrockworks:mechanical_press",
+          "bedrockworks:mechanical_funnel"
+        ]
+      }
+    ]
+  }
+]

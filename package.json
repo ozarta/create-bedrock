@@ -1,0 +1,27 @@
+{
+  "name": "bedrockworks",
+  "version": "0.4.2",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "assets": "python3 tools/generate_assets.py && python3 tools/generate_kinetic_assets.py && python3 tools/generate_guide_images.py && python3 tools/generate_press_assets.py && python3 tools/generate_funnel_assets.py",
+    "build": "node tools/build.mjs",
+    "validate": "node tools/validate.mjs",
+    "test": "npm run build && node --test --test-isolation=none tests/*.test.mjs",
+    "package": "npm test && python3 tools/package_addon.py",
+    "package:release": "npm test && python3 tools/package_addon.py --release",
+    "demo": "npm run build && node tools/demo.mjs",
+    "extract:recipes": "python3 tools/extract_create_recipes.py",
+    "demo:factory": "npm run build && node tools/factory-demo.mjs",
+    "qa:static": "python3 tools/qa-static.py",
+    "benchmark": "npm run build && node --expose-gc tools/benchmark.mjs"
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.11.0",
+    "@minecraft/server-ui": "2.3.0",
+    "typescript": "5.9.3"
+  }
+}

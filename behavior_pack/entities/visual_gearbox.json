@@ -1,0 +1,63 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "bedrockworks:visual_gearbox",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "properties": {
+        "bedrockworks:rpm": {
+          "type": "float",
+          "range": [
+            -256,
+            256
+          ],
+          "default": 0,
+          "client_sync": true
+        },
+        "bedrockworks:load": {
+          "type": "float",
+          "range": [
+            0,
+            1
+          ],
+          "default": 0,
+          "client_sync": true
+        },
+        "bedrockworks:axis": {
+          "type": "int",
+          "range": [
+            0,
+            2
+          ],
+          "default": 1,
+          "client_sync": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:persistent": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      }
+    }
+  }
+}

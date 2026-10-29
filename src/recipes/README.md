@@ -1,0 +1,1 @@
+Contratos en types.ts y datos en data/processing/. generated.ts se genera durante el build. Tres recetas de prensado; cantidades del manual validadas contra el motor. No se implementan recetas por aparecer en el catálogo Java.

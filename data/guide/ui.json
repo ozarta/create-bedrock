@@ -1,0 +1,362 @@
+{
+  "manual.title": {
+    "es_MX": "Manual de Ingeniería Mecánica",
+    "en_US": "Mechanical Engineering Manual"
+  },
+  "manual.welcome": {
+    "es_MX": "Consulta recetas y usos del add-on. Las referencias de Create Java no son recetas Bedrock. La integración del add-on aún necesita pruebas dentro de Minecraft/Realms.",
+    "en_US": "Browse add-on recipes and uses. Create Java references are not Bedrock recipes. Add-on integration still needs in-game Minecraft/Realms testing."
+  },
+  "manual.search": {
+    "es_MX": "Buscar y filtrar",
+    "en_US": "Search and filter"
+  },
+  "manual.search_name": {
+    "es_MX": "Nombre, identificador o material (español/inglés)",
+    "en_US": "Name, identifier or material (Spanish/English)"
+  },
+  "manual.search_hint": {
+    "es_MX": "Ejemplo: latón, eje, brass, shaft",
+    "en_US": "Example: brass, shaft, latón, eje"
+  },
+  "manual.category_label": {
+    "es_MX": "Categoría",
+    "en_US": "Category"
+  },
+  "manual.scope_label": {
+    "es_MX": "Origen del catálogo",
+    "en_US": "Catalog source"
+  },
+  "manual.status_label": {
+    "es_MX": "Disponibilidad",
+    "en_US": "Availability"
+  },
+  "manual.all": {
+    "es_MX": "Todos",
+    "en_US": "All"
+  },
+  "manual.scope.bedrock": {
+    "es_MX": "Contenido Bedrock",
+    "en_US": "Bedrock content"
+  },
+  "manual.scope.java": {
+    "es_MX": "Referencia Java — no fabricable",
+    "en_US": "Java reference — not craftable"
+  },
+  "manual.scope.all": {
+    "es_MX": "Ambos catálogos",
+    "en_US": "Both catalogs"
+  },
+  "manual.status.functional": {
+    "es_MX": "Disponible y funcional (nativo)",
+    "en_US": "Available and functional (native)"
+  },
+  "manual.status.partial": {
+    "es_MX": "Disponible parcialmente — integración pendiente",
+    "en_US": "Partially available — integration pending"
+  },
+  "manual.status.upcoming": {
+    "es_MX": "Próximamente — referencia, no fabricable",
+    "en_US": "Coming soon — reference, not craftable"
+  },
+  "manual.back": {
+    "es_MX": "Volver",
+    "en_US": "Back"
+  },
+  "manual.close": {
+    "es_MX": "Cerrar manual",
+    "en_US": "Close manual"
+  },
+  "manual.next": {
+    "es_MX": "Siguiente",
+    "en_US": "Next"
+  },
+  "manual.previous": {
+    "es_MX": "Anterior",
+    "en_US": "Previous"
+  },
+  "manual.page": {
+    "es_MX": "Página %s / %s · %s resultados",
+    "en_US": "Page %s / %s · %s results"
+  },
+  "manual.empty": {
+    "es_MX": "No hay resultados con estos filtros. Puedes buscar en ambos catálogos o cambiar la categoría.",
+    "en_US": "No results match these filters. Search both catalogs or change category."
+  },
+  "manual.upcoming": {
+    "es_MX": "Esta categoría no tiene un sistema Bedrock implementado. Sus fichas Java son solo referencia.",
+    "en_US": "This category has no implemented Bedrock system. Its Java entries are references only."
+  },
+  "manual.description": {
+    "es_MX": "Descripción",
+    "en_US": "Description"
+  },
+  "manual.operation": {
+    "es_MX": "Funcionamiento",
+    "en_US": "Operation"
+  },
+  "manual.energy": {
+    "es_MX": "Requisitos de energía",
+    "en_US": "Power requirements"
+  },
+  "manual.example": {
+    "es_MX": "Ejemplo de utilización",
+    "en_US": "Usage example"
+  },
+  "manual.errors": {
+    "es_MX": "Errores frecuentes",
+    "en_US": "Common mistakes"
+  },
+  "manual.recipes": {
+    "es_MX": "Cómo se fabrica / alternativas",
+    "en_US": "How to craft / alternatives"
+  },
+  "manual.uses": {
+    "es_MX": "Usos de este material",
+    "en_US": "Uses of this material"
+  },
+  "manual.ingredients": {
+    "es_MX": "Ingredientes",
+    "en_US": "Ingredients"
+  },
+  "manual.results": {
+    "es_MX": "Resultados",
+    "en_US": "Results"
+  },
+  "manual.machine": {
+    "es_MX": "Estación o máquina",
+    "en_US": "Station or machine"
+  },
+  "manual.conditions": {
+    "es_MX": "Condiciones",
+    "en_US": "Conditions"
+  },
+  "manual.related": {
+    "es_MX": "Recetas relacionadas",
+    "en_US": "Related recipes"
+  },
+  "manual.no_recipes": {
+    "es_MX": "Sin receta fija en este catálogo. Para recursos nativos consulta la obtención vanilla; para Java puede depender de reglas dinámicas.",
+    "en_US": "No fixed recipe in this catalog. For native resources use vanilla acquisition; Java may depend on dynamic rules."
+  },
+  "manual.count": {
+    "es_MX": "%s × ",
+    "en_US": "%s × "
+  },
+  "manual.or": {
+    "es_MX": " / alternativa: ",
+    "en_US": " / alternative: "
+  },
+  "manual.unknown_count": {
+    "es_MX": "Cantidad dependiente del selector; ver datos técnicos.",
+    "en_US": "Selector-dependent quantity; see technical data."
+  },
+  "manual.unit.mB": {
+    "es_MX": " mB (unidad Java)",
+    "en_US": " mB (Java unit)"
+  },
+  "manual.catalyst": {
+    "es_MX": " · catalizador conservado",
+    "en_US": " · retained catalyst"
+  },
+  "manual.chance": {
+    "es_MX": " · probabilidad independiente por unidad: %s%%",
+    "en_US": " · independent chance per unit: %s%%"
+  },
+  "manual.weight": {
+    "es_MX": " · peso de selección: %s",
+    "en_US": " · selection weight: %s"
+  },
+  "manual.pattern": {
+    "es_MX": "Patrón técnico (los símbolos corresponden a key en datos técnicos)",
+    "en_US": "Technical pattern (symbols map to key in technical data)"
+  },
+  "manual.special": {
+    "es_MX": "Receta especial: %s",
+    "en_US": "Special recipe: %s"
+  },
+  "manual.partial_model": {
+    "es_MX": "Selector/serializador especial: consulta los datos técnicos; no se inventan ingredientes o resultados.",
+    "en_US": "Special selector/serializer: consult technical data; ingredients or results are not invented."
+  },
+  "manual.technical": {
+    "es_MX": "Datos técnicos / procedencia",
+    "en_US": "Technical data / provenance"
+  },
+  "manual.source": {
+    "es_MX": "Fuente: %s",
+    "en_US": "Source: %s"
+  },
+  "manual.sequence": {
+    "es_MX": "Secuencia · %s ciclos",
+    "en_US": "Sequence · %s loops"
+  },
+  "manual.step": {
+    "es_MX": "Paso %s · %s",
+    "en_US": "Step %s · %s"
+  },
+  "manual.tag_notice": {
+    "es_MX": "Las etiquetas Java se resuelven parcialmente con archivos del repositorio; dependencias externas pueden añadir miembros y usos.",
+    "en_US": "Java tags are partially resolved from repository files; external dependencies may add members and uses."
+  },
+  "manual.reference.description": {
+    "es_MX": "Dato técnico de Create Java 6.0.10, separado del registro Bedrock. No es un objeto que puedas obtener con este add-on.",
+    "en_US": "Create Java 6.0.10 technical reference, separate from the Bedrock registry. This add-on does not provide this object."
+  },
+  "manual.reference.operation": {
+    "es_MX": "Consulta recetas y datos técnicos. No hay una implementación Bedrock para esta referencia.",
+    "en_US": "See recipes and technical data. This reference has no Bedrock implementation."
+  },
+  "manual.reference.energy": {
+    "es_MX": "No aplicable como máquina Bedrock. Los datos Java pueden contener calor, tiempos y procesos que no están implementados.",
+    "en_US": "Not applicable as a Bedrock machine. Java data can contain heat, timing and processes that are not implemented."
+  },
+  "manual.reference.example": {
+    "es_MX": "Usa las recetas relacionadas para estudiar su progresión Java; no intentes fabricarla en Bedrock.",
+    "en_US": "Use related recipes to study Java progression; do not try crafting it in Bedrock."
+  },
+  "manual.reference.errors": {
+    "es_MX": "No confundir una referencia con contenido disponible. Las recetas condicionales requieren sus mods/tags en Java, no en este add-on.",
+    "en_US": "Do not confuse a reference with available content. Conditional recipes require their Java mods/tags, not this add-on."
+  },
+  "manual.condition.crafting": {
+    "es_MX": "Mesa de trabajo · sin energía cinética.",
+    "en_US": "Crafting table · no kinetic power."
+  },
+  "manual.condition.engine_pending": {
+    "es_MX": "Definición Bedrock presente; fabricación e importación todavía no verificadas en juego.",
+    "en_US": "Bedrock definition exists; crafting and import are not yet verified in-game."
+  },
+  "manual.condition.native": {
+    "es_MX": "Receta nativa Bedrock: cuatro tablones en patrón 2×2.",
+    "en_US": "Native Bedrock recipe: four planks in a 2×2 pattern."
+  },
+  "manual.condition.java": {
+    "es_MX": "Referencia del tag exacto Create 6.0.10 / Java 1.21.1.",
+    "en_US": "Reference from the exact Create 6.0.10 / Java 1.21.1 tag."
+  },
+  "manual.condition.not_fabricable": {
+    "es_MX": "No fabricable ni ejecutable por el add-on.",
+    "en_US": "Not craftable or executable by this add-on."
+  },
+  "manual.condition.technical": {
+    "es_MX": "Condición técnica: %s",
+    "en_US": "Technical condition: %s"
+  },
+  "manual.processes": {
+    "es_MX": "Categorías de procesamiento de referencia",
+    "en_US": "Reference processing categories"
+  },
+  "manual.tutorials": {
+    "es_MX": "Tutoriales paso a paso",
+    "en_US": "Step-by-step tutorials"
+  },
+  "manual.verify": {
+    "es_MX": "Comprobar lo que estoy mirando",
+    "en_US": "Check what I am looking at"
+  },
+  "manual.verified": {
+    "es_MX": "La comprobación del servidor coincide con este paso.",
+    "en_US": "The server check matches this step."
+  },
+  "manual.not_verified": {
+    "es_MX": "Todavía no coincide. Cierra el formulario, mira el bloque indicado y vuelve a comprobar.",
+    "en_US": "Not matched yet. Close the form, look at the indicated block and check again."
+  },
+  "manual.illustration": {
+    "es_MX": "Ver ilustración",
+    "en_US": "View illustration"
+  },
+  "manual.tutorial_position": {
+    "es_MX": "Paso %s / %s",
+    "en_US": "Step %s / %s"
+  },
+  "manual.runtime_warning": {
+    "es_MX": "No se ha ejecutado una prueba del cliente Minecraft en este entorno. Los pasos y comprobaciones están implementados, no certificados en juego.",
+    "en_US": "No Minecraft client test was run in this environment. Steps and checks are implemented, not certified in-game."
+  },
+  "manual.no_ponder": {
+    "es_MX": "Ilustración original estática; no es una simulación Ponder ni una construcción creada automáticamente.",
+    "en_US": "Original static illustration; not a Ponder simulation or an automatically built structure."
+  },
+  "manual.registry_gap": {
+    "es_MX": "La familia Java se genera en ejecución y no está expandida aquí; revisa el informe de extracción.",
+    "en_US": "This Java family is runtime-generated and is not expanded here; see the extraction report."
+  },
+  "manual.links": {
+    "es_MX": "Todos los ingredientes y resultados",
+    "en_US": "All ingredients and results"
+  },
+  "manual.dynamic_families": {
+    "es_MX": "Familias Java dinámicas — sin expandir",
+    "en_US": "Dynamic Java families — not expanded"
+  },
+  "manual.family.fan_smoking_blasting": {
+    "es_MX": "El ventilador consulta smoking, smelting y blasting del mundo y excluye recetas manual_only. La selección depende de las recetas activas, no de un listado fijo del add-on.",
+    "en_US": "The fan queries world smoking, smelting and blasting registries and excludes manual_only recipes. Selection depends on active recipes, not a fixed add-on list."
+  },
+  "manual.family.basin_shapeless": {
+    "es_MX": "El cuenco puede convertir recetas shapeless aptas del registro Java. Los ingredientes y resultados dependen del registro del mundo.",
+    "en_US": "The basin can convert eligible Java shapeless recipes. Ingredients and results depend on the world registry."
+  },
+  "manual.family.potion_mixing": {
+    "es_MX": "Genera mezclas para envases y pociones registradas, incluyendo mezclas de mods. El generador usa fluidos de 1000 mB y calor HEATED; no se han enumerado los registros de un mundo Java.",
+    "en_US": "Generates mixes for registered containers and potions, including mod brewing. The generator uses 1000 mB fluids and HEATED heat; no Java world registry was enumerated."
+  },
+  "manual.family.generic_filling": {
+    "es_MX": "Además de recetas explícitas, admite botellas de agua/poción/té y capacidades de recipientes válidas. La cantidad puede depender del recipiente; no se inventa un resultado Bedrock.",
+    "en_US": "Beyond explicit recipes, supports water/potion/tea bottles and valid container capabilities. Amount can depend on the container; no Bedrock output is invented."
+  },
+  "manual.family.generic_emptying": {
+    "es_MX": "Da prioridad a pociones y recetas de vaciado explícitas; después consulta la capacidad del recipiente y drena hasta 1000 mB. Puede devolver recipientes con componentes.",
+    "en_US": "Prioritizes potions and explicit emptying recipes, then queries container capabilities and drains up to 1000 mB. Returned containers can carry components."
+  },
+  "manual.family.toolbox_dyeing": {
+    "es_MX": "El serializador exige una caja y un tinte y conserva los componentes de la caja. El JSON solo declara el serializador; no es una receta fija vacía.",
+    "en_US": "The serializer requires one toolbox and one dye and preserves toolbox components. Its JSON declares only the serializer; it is not an empty fixed recipe."
+  },
+  "manual.family.item_copying": {
+    "es_MX": "El serializador identifica una fuente con componente y destinos del mismo tipo sin ese componente. La implementación base copia datos y elimina encantamientos; las variantes dependen de los objetos.",
+    "en_US": "The serializer identifies a component-bearing source and same-type targets without that component. The base implementation copies data and removes enchantments; variants depend on supported items."
+  },
+  "manual.family.jei_conversion": {
+    "es_MX": "Solo representa relaciones de objetos en JEI. matches devuelve false: no debe presentarse como una receta fabricable.",
+    "en_US": "Only represents item relationships in JEI. matches returns false: it must not be presented as a craftable recipe."
+  },
+  "manual.heat.heated": {
+    "es_MX": "Requiere calor (heated), solo como referencia Java.",
+    "en_US": "Requires heat (heated), Java reference only."
+  },
+  "manual.heat.superheated": {
+    "es_MX": "Requiere sobrecalentamiento (superheated), solo como referencia Java.",
+    "en_US": "Requires superheating (superheated), Java reference only."
+  },
+  "manual.heat.none": {
+    "es_MX": "Sin requisito de calor declarado.",
+    "en_US": "No declared heat requirement."
+  },
+  "manual.processing_ticks": {
+    "es_MX": "Tiempo técnico: %s ticks Java; este proceso no se ejecuta en Bedrock.",
+    "en_US": "Technical time: %s Java ticks; this process is not executed in Bedrock."
+  },
+  "manual.condition.retained": {
+    "es_MX": "El ingrediente sostenido se conserva: no se consume como material; sus componentes pueden imponer otras reglas.",
+    "en_US": "The held ingredient is retained rather than consumed as material; its components may impose other rules."
+  },
+  "manual.processing.power": {
+    "es_MX": "Requiere red en marcha entre %s RPM absolutas; una sobrecarga impide fabricar.",
+    "en_US": "Requires a running network between %s absolute RPM; overload prevents production."
+  },
+  "manual.processing.work": {
+    "es_MX": "%s unidades de trabajo por unidad de entrada. El lote completo tarda proporcionalmente más.",
+    "en_US": "%s work units per input unit. The entire batch takes proportionally longer."
+  },
+  "manual.processing.atomic": {
+    "es_MX": "Barril vanilla directamente debajo: entrada y salida en el mismo slot. No consume nada antes de terminar; el material debe ser simple y sin datos personalizados.",
+    "en_US": "Vanilla barrel directly below: input and output in the same slot. Nothing is consumed before completion; material must be plain and carry no custom data."
+  },
+  "manual.processing.overview": {
+    "es_MX": "Los procesos Bedrock se distinguen de las referencias Java. Las marcas parciales indican implementación presente con pruebas del motor pendientes.",
+    "en_US": "Bedrock processes are separate from Java references. Partial labels mean implementation exists with in-engine tests pending."
+  }
+}

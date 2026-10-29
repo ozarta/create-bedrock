@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrockworks:assemble_shaft"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrockworks:shaft_component"
+      }
+    ],
+    "result": {
+      "item": "bedrockworks:shaft",
+      "count": 1
+    }
+  }
+}

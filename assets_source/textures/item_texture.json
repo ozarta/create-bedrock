@@ -1,0 +1,33 @@
+{
+  "resource_pack_name": "bedrockworks",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "bedrockworks_gear": {
+      "textures": "textures/items/gear"
+    },
+    "bedrockworks_shaft": {
+      "textures": "textures/items/shaft"
+    },
+    "bedrockworks_guidebook": {
+      "textures": "textures/items/guidebook"
+    },
+    "bedrockworks_large_gear": {
+      "textures": "textures/items/large_gear"
+    },
+    "bedrockworks_gearbox": {
+      "textures": "textures/items/gearbox"
+    },
+    "bedrockworks_water_wheel": {
+      "textures": "textures/items/water_wheel"
+    },
+    "bedrockworks_test_source": {
+      "textures": "textures/items/test_source"
+    },
+    "bedrockworks_speed_meter": {
+      "textures": "textures/items/speed_meter"
+    },
+    "bedrockworks_stress_meter": {
+      "textures": "textures/items/stress_meter"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "minecraft:crafting_shaped": {
+    "es_MX": "Crafteo con patrón",
+    "en_US": "Shaped crafting"
+  },
+  "minecraft:crafting_shapeless": {
+    "es_MX": "Crafteo sin patrón",
+    "en_US": "Shapeless crafting"
+  },
+  "minecraft:stonecutting": {
+    "es_MX": "Cortapiedras",
+    "en_US": "Stonecutting"
+  },
+  "minecraft:smelting": {
+    "es_MX": "Fundición",
+    "en_US": "Smelting"
+  },
+  "minecraft:blasting": {
+    "es_MX": "Fundición rápida",
+    "en_US": "Blasting"
+  },
+  "minecraft:smoking": {
+    "es_MX": "Ahumado",
+    "en_US": "Smoking"
+  },
+  "minecraft:campfire_cooking": {
+    "es_MX": "Cocción en fogata",
+    "en_US": "Campfire cooking"
+  },
+  "minecraft:smithing_transform": {
+    "es_MX": "Mejora en herrería",
+    "en_US": "Smithing upgrade"
+  },
+  "create:mechanical_crafting": {
+    "es_MX": "Fabricación mecánica",
+    "en_US": "Mechanical crafting"
+  },
+  "create:mixing": {
+    "es_MX": "Mezclado",
+    "en_US": "Mixing"
+  },
+  "create:pressing": {
+    "es_MX": "Prensado",
+    "en_US": "Pressing"
+  },
+  "create:crushing": {
+    "es_MX": "Trituración",
+    "en_US": "Crushing"
+  },
+  "create:milling": {
+    "es_MX": "Molienda",
+    "en_US": "Milling"
+  },
+  "create:splashing": {
+    "es_MX": "Lavado",
+    "en_US": "Washing"
+  },
+  "create:cutting": {
+    "es_MX": "Aserrado",
+    "en_US": "Cutting"
+  },
+  "create:deploying": {
+    "es_MX": "Aplicación mecánica",
+    "en_US": "Deploying"
+  },
+  "create:filling": {
+    "es_MX": "Llenado",
+    "en_US": "Filling"
+  },
+  "create:emptying": {
+    "es_MX": "Vaciado",
+    "en_US": "Emptying"
+  },
+  "create:compacting": {
+    "es_MX": "Compactado",
+    "en_US": "Compacting"
+  },
+  "create:sequenced_assembly": {
+    "es_MX": "Ensamblaje en secuencia",
+    "en_US": "Sequenced assembly"
+  },
+  "create:haunting": {
+    "es_MX": "Transformación espectral",
+    "en_US": "Haunting"
+  },
+  "create:sandpaper_polishing": {
+    "es_MX": "Pulido con lija",
+    "en_US": "Sandpaper polishing"
+  },
+  "create:item_application": {
+    "es_MX": "Aplicación manual",
+    "en_US": "Item application"
+  },
+  "create:toolbox_dyeing": {
+    "es_MX": "Teñido de cajas de herramientas",
+    "en_US": "Toolbox dyeing"
+  },
+  "create:item_copying": {
+    "es_MX": "Copiado de objetos",
+    "en_US": "Item copying"
+  },
+  "create:basin": {
+    "es_MX": "Conversiones dinámicas del cuenco",
+    "en_US": "Dynamic basin conversions"
+  },
+  "create:conversion": {
+    "es_MX": "Relaciones de JEI — no fabricables",
+    "en_US": "JEI relationships — not craftable"
+  },
+  "bedrock:pressing": {
+    "es_MX": "Prensado mecánico (Bedrock)",
+    "en_US": "Mechanical pressing (Bedrock)"
+  }
+}

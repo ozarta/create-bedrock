@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.bedrockworks.mechanical_press": {
+      "loop": true,
+      "bones": {
+        "mount": {
+          "rotation": [
+            0,
+            "query.property('bedrockworks:axis') == 2 ? 90 : 0",
+            0
+          ]
+        },
+        "rotor": {
+          "rotation": [
+            "variable.angle",
+            0,
+            0
+          ]
+        },
+        "ram": {
+          "position": [
+            0,
+            "-(1 - math.cos(query.property('bedrockworks:progress') * 360)) * 2",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

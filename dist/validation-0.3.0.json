@@ -1,0 +1,24 @@
+{
+  "version": "0.3.0",
+  "artifact": "dist/create-bedrock-dev-0.3.0.mcaddon",
+  "bytes": 387171,
+  "sha256": "b2ffcebf2961e2017d4ca8deacbbaad17ddd414257b0f0eeeca9fea73823419d",
+  "reproducible_same_toolchain": true,
+  "node_tests_passed": 72,
+  "python_tests_passed": 2,
+  "minecraft_tested": false,
+  "realms_tested": false,
+  "java_materialized_recipes": 1884,
+  "java_runtime_families_not_expanded": 8,
+  "packs": {
+    "behavior_pack.mcpack": {
+      "files": 64,
+      "uuid": "f051ef04-2ffb-49df-8098-cfce32bc1836"
+    },
+    "resource_pack.mcpack": {
+      "files": 70,
+      "uuid": "be048d27-b904-47e7-885f-c0d455a3fe28"
+    }
+  },
+  "kinetic_js_unchanged_from_0_2": 8
+}

@@ -1,0 +1,17 @@
+{
+  "simulation": "Node inventory and water ports; Minecraft NOT executed",
+  "ticks": 1400,
+  "energy": {
+    "rpm": 8,
+    "theoreticalRpm": 8,
+    "capacity": 256,
+    "stress": 64,
+    "status": "running",
+    "members": 4
+  },
+  "results": {
+    "bedrockworks:iron_sheet": 2,
+    "bedrockworks:copper_sheet": 1,
+    "bedrockworks:golden_sheet": 1
+  }
+}

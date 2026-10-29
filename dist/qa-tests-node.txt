@@ -1,0 +1,137 @@
+
+> bedrockworks@0.4.2 test
+> npm run build && node --test --test-isolation=none tests/*.test.mjs
+
+
+> bedrockworks@0.4.2 build
+> node tools/build.mjs
+
+{
+  "jsonFiles": 146,
+  "strictJson": true,
+  "artProvenanceEntries": 64,
+  "sameFormatSourcesMatch": 63,
+  "encodedFromDifferentSourceFormat": [
+    {
+      "asset": "resource_pack/sounds/mechanical_click.ogg",
+      "source": "assets_source/audio/mechanical_click.wav"
+    }
+  ],
+  "upstreamComparison": "not executed"
+}
+Guide generated: 1873 entries, 1901 recipes, 4 tutorials
+TypeScript compilado y referencias locales validadas. Minecraft no ejecutado.
+✔ rotation preserves units and wraps both directions (2.353268ms)
+✔ rotation rejects invalid input instead of propagating NaN (0.558648ms)
+✔ sessions isolate players and reject duplicate UI requests (0.255338ms)
+✔ stale asynchronous completion cannot clear a reconnected session (0.250131ms)
+✔ water wheel demo transmits through shafts, gears, gearbox and gauges (6.944974ms)
+✔ demo overload, fluid loss and a broken shaft change the actual graph result (11.485293ms)
+✔ native-style whole-stack transfer conserves counts and filters raw vs products (0.461494ms)
+✔ full destination, custom metadata, aliasing and changed source never copy or overwrite (0.207077ms)
+✔ ambiguous transfer errors do not restore items or duplicate a successful native move (0.222981ms)
+✔ slot scanning is bounded yet eventually discovers material outside the first four slots (0.251353ms)
+✔ shared native inventory locks serialize simultaneous press and funnel callbacks (0.210603ms)
+✔ every enabled pressing recipe delivers its real metal sheet (5.510102ms)
+✔ automated three-barrel factory processes and collects without any direct player-inventory write (7.894271ms)
+✔ failed journal cleanup followed by extraction and identical refill cannot reuse completed work (2.602177ms)
+✔ structured guide validates all materialized references and live BP definitions (81.442371ms)
+✔ unknown ingredient is rejected (42.584367ms)
+✔ duplicate recipe is rejected (21.073915ms)
+✔ broken machine link is rejected (39.847736ms)
+✔ functional recipe without implemented machine is rejected (36.699616ms)
+✔ custom crafting is not marked tested just because its table is native (44.065673ms)
+✔ reference recipe can never be marked Bedrock craftable (33.584828ms)
+✔ missing guide icon is rejected (26.891909ms)
+✔ missing translation key on a machine page is rejected (48.32824ms)
+✔ normalized counts must match the real BP rather than a second hand-written table (34.684258ms)
+✔ technical Java source and conditional requirements cannot be silently modified (32.135414ms)
+✔ broken tutorial reference is rejected (46.31716ms)
+✔ processing quantities cannot diverge from the manufacturing engine (31.554548ms)
+✔ all eleven requested categories exist and every home button has a route (0.829049ms)
+✔ search supports Spanish accents, English, technical IDs and bounded queries (2.162545ms)
+✔ scope, category and availability filters never promote Java recipes (2.506325ms)
+✔ pagination bounds empty, negative, huge and nonfinite page numbers (0.37763ms)
+✔ recipe view uses structured counts, ingredients and actual crafting station (0.493922ms)
+✔ material uses and alternatives are reverse-indexed, including sequenced steps (0.190022ms)
+✔ sequence weights remain weights, not impossible percentages; fluids retain Java units (0.357509ms)
+✔ reference includes every materialized type and declares runtime incompleteness (0.632738ms)
+✔ every item, recipe and tutorial renders with working item/machine links (29.100301ms)
+✔ history preserves query/page across related item and recipe navigation (0.22951ms)
+✔ history is bounded and technical pages have no recursive UI calls (0.361535ms)
+✔ tutorial checks require real matching type, state and exact specified RPM (0.212244ms)
+✔ overload tutorial checks actual demand/capacity, not a fake success flag (0.097966ms)
+✔ session ownership isolates players and rejects obsolete asynchronous responses (0.095672ms)
+✔ 6.0.10 snake_case fields preserve held catalysts, heat and processing times (1.825145ms)
+✔ Java actions and sequences are not mislabeled as one crafting/deployer machine (0.390319ms)
+✔ orientation tutorial does not approve a real wheel with the wrong axle (0.123663ms)
+✔ shaft ports require alignment, axis and dimension (0.201899ms)
+✔ small gears reverse only coplanar side connections (0.102792ms)
+✔ large-small gears require a plane diagonal and use reciprocal signed ratios (0.079538ms)
+✔ large perpendicular gears preserve Java sign rule and reject parallel neighbors (0.064365ms)
+✔ gearbox blocks its axis and resolves opposite/perpendicular port handedness (0.294847ms)
+✔ speed conversion affects consumption without inventing source capacity (0.250361ms)
+✔ capacity boundary runs; overload stops every member and recovers (0.477918ms)
+✔ matching sources add capacity; conflicting speeds stop rather than destroy blocks (0.32332ms)
+✔ splitting a network leaves the disconnected half idle and reconnects correctly (0.448846ms)
+✔ consistent square gear loop terminates (0.31714ms)
+✔ odd perpendicular gear loop stops as inconsistent (0.352363ms)
+✔ mutation during solve cannot publish stale topology (0.825975ms)
+✔ unrelated network remains valid during selective invalidation (0.275509ms)
+✔ unavailable members or boundary pause entire connected graph and recover (0.239695ms)
+✔ overspeed stops without deleting topology; nonfinite inputs are rejected (0.202029ms)
+✔ 3000 nodes are processed under operation and deadline budgets without recursion (46.859133ms)
+✔ falling water requires depth and water above; opposite sides cancel (0.252274ms)
+✔ world adapter detects fluid removal, block replacement, unload and reconstruction (2.720773ms)
+✔ stale world readings expire, pause the graph and recover on a real read (0.350139ms)
+✔ numeric extremes stop with finite diagnostics rather than leaking NaN to entity properties (0.290801ms)
+✔ mutation during staged publication never exposes a partially valid network (0.372923ms)
+✔ world liveness clock rejects backwards or nonfinite time (0.130574ms)
+✔ unloaded tombstones age out under a bounded eviction budget and rediscover safely (2.360989ms)
+✔ returning chunk cancels eviction instead of deleting a live node later (0.201259ms)
+✔ evicting an unloaded bridge cannot energize a network across unknown chunks (0.35118ms)
+✔ liveness heap refreshes a deadline without duplicating entries (0.185074ms)
+✔ liveness heap supports earlier deadlines, cancellation and bounded expiry (1.729574ms)
+✔ press follows Java work speed and retains input until one native replacement (2.187883ms)
+✔ stack batches preserve counts and charge work for every ingredient (3.147926ms)
+✔ no power, overload and invalid RPM never consume ingredients or advance work (1.718517ms)
+✔ named/custom-data items are rejected and other slots stay unchanged (1.150716ms)
+✔ player changes reset time without copying or restoring an old stack (3.287713ms)
+✔ progress survives processor reconstruction but never owns inventory (0.914675ms)
+✔ native failure before writing cancels ambiguous attempt and redoes work without material loss (1.935038ms)
+✔ native exception after writing never replays output, even if input is refilled identically (1.881189ms)
+✔ journal cleanup failure after commit does not grant a second batch (1.441557ms)
+✔ read/storage failures never remove or emit items; locks release after exceptions (1.400155ms)
+✔ full single-slot output capacity and heat conditions pause safely (0.13453ms)
+✔ corrupt progress recovers without trusting saved output claims (0.117464ms)
+✔ reentrant competing processors cannot both write the same inventory (0.096283ms)
+✔ unsupported multi-input/multi-output and identity transformations are rejected (0.13479ms)
+✔ press integrates with real graph stress and overload without bypassing its state (1.761641ms)
+✔ malformed native JSON progress is discarded rather than permanently faulting the press (2.06492ms)
+✔ real project references and stable module versions validate (91.986219ms)
+✔ missing texture is caught (15.430911ms)
+✔ duplicate gameplay identifiers across files are caught (12.786312ms)
+✔ missing model reference is caught (12.09725ms)
+✔ missing translation in one locale is caught (43.961589ms)
+✔ missing translation in every locale is also caught (90.370144ms)
+✔ broken UUID link is caught (13.225732ms)
+✔ beta dependency is rejected (12.029701ms)
+✔ missing animation is caught (12.912628ms)
+✔ malformed JSON is rejected (12.087416ms)
+✔ missing sound is caught (12.728996ms)
+✔ animation bone mismatch is caught (13.725314ms)
+✔ changed resource requires provenance hash refresh (45.717676ms)
+✔ art added without a provenance entry is rejected (51.827857ms)
+✔ duplicate provenance entries cannot conceal missing art review (50.078434ms)
+✔ geometry overrides in block permutations are validated (14.364982ms)
+✔ translation parameter differences are rejected (32.78395ms)
+✔ additional runtime modules cannot silently expand the Realms API requirements (13.124283ms)
+✔ experimental entities are rejected (17.934747ms)
+ℹ tests 106
+ℹ suites 0
+ℹ pass 106
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1418.552285

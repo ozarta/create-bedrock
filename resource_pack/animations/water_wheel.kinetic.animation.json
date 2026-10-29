@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.bedrockworks.water_wheel": {
+      "loop": true,
+      "bones": {
+        "mount": {
+          "rotation": [
+            "query.property('bedrockworks:axis') == 2 ? 90 : 0",
+            0,
+            "query.property('bedrockworks:axis') == 0 ? -90 : 0"
+          ]
+        },
+        "rotor": {
+          "rotation": [
+            0,
+            "variable.angle",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

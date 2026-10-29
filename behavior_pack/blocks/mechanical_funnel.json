@@ -1,0 +1,71 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrockworks:mechanical_funnel",
+      "states": {
+        "bedrockworks:facing": [
+          "west",
+          "north",
+          "east",
+          "south"
+        ],
+        "bedrockworks:role": [
+          "output",
+          "input"
+        ],
+        "bedrockworks:active": [
+          false,
+          true
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.bedrockworks.mechanical_funnel",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bedrockworks_mechanical_funnel",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 4
+      },
+      "minecraft:loot": "loot_tables/blocks/mechanical_funnel.json",
+      "minecraft:tick": {
+        "interval_range": [
+          20,
+          20
+        ],
+        "looping": true
+      },
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.bedrockworks.mechanical_funnel",
+        "material_instances": {
+          "*": {
+            "texture": "bedrockworks_mechanical_funnel",
+            "render_method": "opaque"
+          }
+        }
+      },
+      "bedrockworks:filtered_funnel": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('bedrockworks:active')",
+        "components": {
+          "minecraft:geometry": "geometry.bedrockworks.mechanical_funnel_active"
+        }
+      }
+    ]
+  }
+}

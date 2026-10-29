@@ -1,0 +1,37 @@
+{
+  "version": "0.4.1",
+  "sha256": "0d41071950dc520ab0b4c1fac866f1c47ec243decb9aa5e17ad9156a51e7804b",
+  "bytes": 412008,
+  "nodeTests": {
+    "passed": 95,
+    "failed": 0,
+    "skipped": 0
+  },
+  "pythonTests": {
+    "passed": 2,
+    "failed": 0
+  },
+  "minecraftExecuted": false,
+  "realmsExecuted": false,
+  "implemented": [
+    "mechanical_press",
+    "mechanical_funnel_filtered_barrels"
+  ],
+  "pending": [
+    "mechanical_mixer",
+    "crushing_wheels",
+    "millstone",
+    "encased_fan",
+    "mechanical_saw",
+    "mechanical_drill",
+    "belt",
+    "depot"
+  ],
+  "catalog": {
+    "items": 1873,
+    "recipes": 1901,
+    "bedrockRecipes": 17,
+    "javaReferenceRecipes": 1884,
+    "tutorials": 4
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.bedrockworks.speed_meter": {
+      "loop": true,
+      "bones": {
+        "mount": {
+          "rotation": [
+            "query.property('bedrockworks:axis') == 2 ? 90 : 0",
+            0,
+            "query.property('bedrockworks:axis') == 0 ? -90 : 0"
+          ]
+        },
+        "rotor": {
+          "rotation": [
+            0,
+            "variable.angle",
+            0
+          ]
+        },
+        "needle": {
+          "rotation": [
+            0,
+            "math.abs(query.property('bedrockworks:rpm')) / 256 * 270",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

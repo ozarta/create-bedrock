@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-29",
+  "version": "0.4.2",
+  "classification": "development candidate; not production-ready",
+  "artifact": "dist/CreateBedrock-dev.mcaddon",
+  "sha256": "e91c08ddfe637625cba17e7ce21400f42a81826fd248884389a6a8151573f69c",
+  "bytes": 412601,
+  "packs": {
+    "behavior_pack.mcpack": {
+      "files": 82,
+      "uuid": "f051ef04-2ffb-49df-8098-cfce32bc1836",
+      "version": [
+        0,
+        4,
+        2
+      ]
+    },
+    "resource_pack.mcpack": {
+      "files": 83,
+      "uuid": "be048d27-b904-47e7-885f-c0d455a3fe28",
+      "version": [
+        0,
+        4,
+        2
+      ]
+    }
+  },
+  "automatic": {
+    "nodeTests": {
+      "passed": 106,
+      "failed": 0,
+      "skipped": 0
+    },
+    "pythonTests": {
+      "passed": 4,
+      "failed": 0
+    },
+    "validation": "tools/validate.mjs + tools/qa-static.py",
+    "json": {
+      "jsonFiles": 146,
+      "strictJson": true,
+      "artProvenanceEntries": 64,
+      "sameFormatSourcesMatch": 63,
+      "encodedFromDifferentSourceFormat": [
+        {
+          "asset": "resource_pack/sounds/mechanical_click.ogg",
+          "source": "assets_source/audio/mechanical_click.wav"
+        }
+      ],
+      "upstreamComparison": "exact byte hashes; no matches",
+      "upstreamCommit": "ac0c444d9828da3453ae8cc65338e8de063286fb",
+      "upstreamArtFiles": 2451,
+      "referenceRecipesChecked": 1884
+    },
+    "kineticDemo": {
+      "simulation": "Node world port; Minecraft not executed",
+      "wheel": {
+        "rpm": 8,
+        "theoreticalRpm": 8,
+        "capacity": 256,
+        "stress": 128,
+        "status": "running",
+        "members": 11
+      },
+      "output": {
+        "rpm": -16,
+        "theoreticalRpm": -16,
+        "capacity": 256,
+        "stress": 128,
+        "status": "running",
+        "members": 11
+      }
+    },
+    "factoryDemo": {
+      "simulation": "Node inventory and water ports; Minecraft NOT executed",
+      "ticks": 1400,
+      "energy": {
+        "rpm": 8,
+        "theoreticalRpm": 8,
+        "capacity": 256,
+        "stress": 64,
+        "status": "running",
+        "members": 4
+      },
+      "results": {
+        "bedrockworks:iron_sheet": 2,
+        "bedrockworks:copper_sheet": 1,
+        "bedrockworks:golden_sheet": 1
+      }
+    },
+    "performanceReport": "dist/qa-performance.json",
+    "archiveCrc": "passed",
+    "developmentAliasMatchesVersioned": true,
+    "reproduciblePackaging": "identical SHA-256 across two consecutive complete builds on this toolchain",
+    "releaseGateCheck": "rejected as expected: licenses_reviewed, windows_tested, realms_tested"
+  },
+  "native": {
+    "windows": "not executed",
+    "realms": "not executed",
+    "multiplayer": "not executed",
+    "chunkLifecycle": "not executed",
+    "cpuMemoryTps": "not measured"
+  },
+  "compatibility": {
+    "target": "Bedrock Windows / Realms 26.60 (reference 1.26.60.5)",
+    "stableApisPublishedAndTypesCompiled": true,
+    "server": "2.11.0",
+    "serverUi": "2.3.0",
+    "experimentalDependenciesRequired": false,
+    "runtimeVerified": false
+  },
+  "releaseGates": {
+    "source_verified": true,
+    "licenses_reviewed": false,
+    "stable_api_verified": true,
+    "windows_tested": false,
+    "realms_tested": false
+  },
+  "knownIssues": "docs/PROBLEMAS_CONOCIDOS.md"
+}

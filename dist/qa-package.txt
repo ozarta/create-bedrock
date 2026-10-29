@@ -1,0 +1,17 @@
+{
+  "jsonFiles": 146,
+  "strictJson": true,
+  "artProvenanceEntries": 64,
+  "sameFormatSourcesMatch": 63,
+  "encodedFromDifferentSourceFormat": [
+    {
+      "asset": "resource_pack/sounds/mechanical_click.ogg",
+      "source": "assets_source/audio/mechanical_click.wav"
+    }
+  ],
+  "upstreamComparison": "not executed"
+}
+Guide generated: 1873 entries, 1901 recipes, 4 tutorials
+TypeScript compilado y referencias locales validadas. Minecraft no ejecutado.
+/workspace/create-bedrock/dist/create-bedrock-dev-0.4.2.mcaddon
+DESARROLLO: importación Windows/Realms pendiente; no distribuir como versión validada.

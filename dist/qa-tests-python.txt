@@ -1,0 +1,9 @@
+test_archive_contains_exact_bytes_and_fixed_metadata (test_project.ArchiveTests.test_archive_contains_exact_bytes_and_fixed_metadata) ... ok
+test_archive_is_independent_of_input_order (test_project.ArchiveTests.test_archive_is_independent_of_input_order) ... ok
+test_duplicate_keys_are_rejected (test_qa.StrictJsonTests.test_duplicate_keys_are_rejected) ... ok
+test_nonfinite_numbers_are_rejected (test_qa.StrictJsonTests.test_nonfinite_numbers_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK

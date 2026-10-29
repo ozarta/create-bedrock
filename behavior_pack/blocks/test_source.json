@@ -1,0 +1,91 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrockworks:test_source",
+      "states": {
+        "bedrockworks:axis": [
+          "y",
+          "x",
+          "z"
+        ],
+        "bedrockworks:source_rpm": [
+          0,
+          8,
+          16,
+          32,
+          64,
+          -8,
+          -16,
+          -32,
+          -64
+        ]
+      },
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.bedrockworks.test_source_base",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bedrockworks_test_source",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 4
+      },
+      "minecraft:loot": "loot_tables/blocks/test_source.json",
+      "minecraft:tick": {
+        "interval_range": [
+          20,
+          20
+        ],
+        "looping": true
+      },
+      "bedrockworks:kinetic": {},
+      "minecraft:movable": {
+        "movement_type": "immovable"
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.bedrockworks.test_source",
+        "material_instances": {
+          "*": {
+            "texture": "bedrockworks_test_source",
+            "render_method": "opaque"
+          }
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('bedrockworks:axis') == 'x'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              -90
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('bedrockworks:axis') == 'z'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

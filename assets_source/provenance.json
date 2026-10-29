@@ -1,0 +1,578 @@
+[
+  {
+    "path": "resource_pack/animations/gear.kinetic.animation.json",
+    "sha256": "2f14915503503fa636df4549d26fe59f7ede6c0a82f8fc63ac77d7187d96f98a",
+    "source": "assets_source/animations/gear.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/gearbox.kinetic.animation.json",
+    "sha256": "69cab337f3d5e0c8c4e32f5b6ea1313b7588a5238e2758eb32deeef8df18e525",
+    "source": "assets_source/animations/gearbox.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/large_gear.kinetic.animation.json",
+    "sha256": "b029c34cc27aa83081122b075596b5de9d75f335e7888bdde05c267ced27b03c",
+    "source": "assets_source/animations/large_gear.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/mechanical_press.kinetic.animation.json",
+    "source": "assets_source/animations/mechanical_press.kinetic.animation.json",
+    "sha256": "aae00f20fe802e2f5aa1404a755103f0c3dfe8ff8b31936147a36cd85a5ca73e",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/rotation.animation.json",
+    "sha256": "7acb1ff51b4d4a5d577e622e8944f5f31db194d5cec85c48c0b6d6388598d725",
+    "source": "assets_source/animations/rotation.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/shaft.kinetic.animation.json",
+    "sha256": "ec9c28933d6846b56d72c7312c15a4c77cf72646e19abfc7357fd613198d1ef2",
+    "source": "assets_source/animations/shaft.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/speed_meter.kinetic.animation.json",
+    "sha256": "133f08bc4f6a30b3707d0844f73ecb76fc42e0007ba601e5f71df63062d63a60",
+    "source": "assets_source/animations/speed_meter.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/stress_meter.kinetic.animation.json",
+    "sha256": "1b57dbd8b6c6d7ccad1ab00b7080a4eab60d3ddc987b5a3e9d25849dfee75868",
+    "source": "assets_source/animations/stress_meter.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/test_source.kinetic.animation.json",
+    "sha256": "2299193f5f4ca540721dcc5e4445dffd23ee6e51f62f9354c6386e1666fd037c",
+    "source": "assets_source/animations/test_source.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/animations/water_wheel.kinetic.animation.json",
+    "sha256": "0565357cf51d3195ba15613117f71c03669ea3796d1fd051d1141b28b6c04184",
+    "source": "assets_source/animations/water_wheel.kinetic.animation.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/gear.geo.json",
+    "sha256": "a7b221dea3f91be1a498eb593bd214e351ebb4b6b187667f35f3bef043a34835",
+    "source": "assets_source/models/blocks/gear.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/gear_base.geo.json",
+    "sha256": "f9a38b9d24109784dafdb9ef530dbabe29349b1ef13243cd320dbc363b4111b2",
+    "source": "assets_source/models/blocks/gear_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/gearbox.geo.json",
+    "sha256": "f64a26d78ac541dff3529dcc7a35d4f933e0a17672c94575cd05b3d7b6de7f1c",
+    "source": "assets_source/models/blocks/gearbox.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/gearbox_base.geo.json",
+    "sha256": "a576ee348945e90d99af390b78c730abf8c3c3e7a277cefade0723ed9fbbc44e",
+    "source": "assets_source/models/blocks/gearbox_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/large_gear.geo.json",
+    "sha256": "a0d8b3794c17edd38df65fb5e03ba72eee71263688dfe179731f5f4ec65bdde2",
+    "source": "assets_source/models/blocks/large_gear.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/large_gear_base.geo.json",
+    "sha256": "60ba386a4b6052e309d1f3d8310990931db20a77cc106439dcf66a9e6cfe35f4",
+    "source": "assets_source/models/blocks/large_gear_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/mechanical_funnel.geo.json",
+    "source": "assets_source/models/blocks/mechanical_funnel.geo.json",
+    "sha256": "ac6641d7283f312b7965f78c73cad5388c4f40fff0450876a714909ca6916856",
+    "creation": "Original voxel transfer gate with two native block poses",
+    "date": "2026-10-29",
+    "tool": "tools/generate_funnel_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/mechanical_funnel_active.geo.json",
+    "source": "assets_source/models/blocks/mechanical_funnel_active.geo.json",
+    "sha256": "8bff631fbbfd72ffd36dad1ee229a68364977fdd46a1a5a16c82552294873c3a",
+    "creation": "Original voxel transfer gate with two native block poses",
+    "date": "2026-10-29",
+    "tool": "tools/generate_funnel_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/mechanical_press.geo.json",
+    "source": "assets_source/models/blocks/mechanical_press.geo.json",
+    "sha256": "6ec3bc145c9f8fe3b5312e630efc6a28ff9aecab582f38dcd5c460eb1dbcd222",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/mechanical_press_base.geo.json",
+    "source": "assets_source/models/blocks/mechanical_press_base.geo.json",
+    "sha256": "caffbcc8f35fac41b9f685a1ce94e53fd5ed8b7b03ec7146c3017f78fbbeae45",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/shaft.geo.json",
+    "sha256": "e5a321d9127465f9096742065a2b82d0caa81ad2d6d7a829253d2813eda28c6d",
+    "source": "assets_source/models/blocks/shaft.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/shaft_base.geo.json",
+    "sha256": "357e10a568d9829cd27ab4f3f4afdc8ec38d393815fdf2152b56b7c5b97e811b",
+    "source": "assets_source/models/blocks/shaft_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/speed_meter.geo.json",
+    "sha256": "c6850cc17911642df7e1d2d3eccb7534bb2de454f7bab957e2377f575248b784",
+    "source": "assets_source/models/blocks/speed_meter.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/speed_meter_base.geo.json",
+    "sha256": "8f246aeb0168d6ee7b1c6cdc13f4b306392ffc63f295fbacb2aa4bda1d64a6cf",
+    "source": "assets_source/models/blocks/speed_meter_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/stress_meter.geo.json",
+    "sha256": "8e23a3f3e1e61140ae0a6f084c776514063ddaac883848e93a31507aa96b56a3",
+    "source": "assets_source/models/blocks/stress_meter.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/stress_meter_base.geo.json",
+    "sha256": "8496386bd4f149ada3599a7b5205cd17aff1bc1a16882bc48a9def52c692dc49",
+    "source": "assets_source/models/blocks/stress_meter_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/test_source.geo.json",
+    "sha256": "01aa072965ffc5c4a1eff52679c1704843eec797194ef8b43310a8309d7d784b",
+    "source": "assets_source/models/blocks/test_source.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/test_source_base.geo.json",
+    "sha256": "97cd62c97b68027ed6eb360a0660e85d68972b4772f0843a244e746274070db0",
+    "source": "assets_source/models/blocks/test_source_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/water_wheel.geo.json",
+    "sha256": "a24fec9f6c4686ad2f84bdc7f9580f70046569f089a6547842f29029b395fb7b",
+    "source": "assets_source/models/blocks/water_wheel.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/models/blocks/water_wheel_base.geo.json",
+    "sha256": "e789c905fd0178bcd3bbcfa02d4f310cddbd909eb961e2f0792ccfad7afedba3",
+    "source": "assets_source/models/blocks/water_wheel_base.geo.json",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/pack_icon.png",
+    "sha256": "b235cdae8b1722e1f6a18e396645e2b56799852f85212bd6c7b6dfb3707d9f7f",
+    "source": "assets_source/pack_icon.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/sounds/mechanical_click.ogg",
+    "sha256": "4d545e39663c1d5f301dc5cb310136c26c10b7dfc5b56a0c25eac267b15ebf3d",
+    "source": "assets_source/audio/mechanical_click.wav",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/gear.png",
+    "sha256": "a2b57b941e174592b2a7fa80e400af01822d985277b2c3a56d65648af0a11ed7",
+    "source": "assets_source/textures/blocks/gear.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/gearbox.png",
+    "sha256": "9cdc9a0840d2241a0b975f8a56ff491f7760fc15d2822c311e7519aded89e8b6",
+    "source": "assets_source/textures/blocks/gearbox.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/large_gear.png",
+    "sha256": "74fd5fda4c00d290b514c2f5120c5e2b2d475a9d5ba97373e0bc36af29a397e6",
+    "source": "assets_source/textures/blocks/large_gear.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/mechanical_funnel.png",
+    "source": "assets_source/textures/blocks/mechanical_funnel.png",
+    "sha256": "cd63a9238b32950d5f86b1e7c643ec430471a43b09ec73f394b87946fa1a83b4",
+    "creation": "Original voxel transfer gate with two native block poses",
+    "date": "2026-10-29",
+    "tool": "tools/generate_funnel_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/mechanical_press.png",
+    "source": "assets_source/textures/blocks/mechanical_press.png",
+    "sha256": "f242604595f3f18857b517c152de023aa0f3f8fa9d789bb483e2db81f065dfdf",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/shaft.png",
+    "sha256": "c85a1c7da976c7568c1e190f530e7747b17aef2e86059357f375524d35e0d7f1",
+    "source": "assets_source/textures/blocks/shaft.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/speed_meter.png",
+    "sha256": "793ae051926e38e523505f3d820617aa3612d70818ab06c89ac624d36067f764",
+    "source": "assets_source/textures/blocks/speed_meter.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/stress_meter.png",
+    "sha256": "472d97d2d27da8e4e91312048f8f2c8f2c9c682f39585546d011b4655a503a6b",
+    "source": "assets_source/textures/blocks/stress_meter.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/test_source.png",
+    "sha256": "09b5461e49e5430d1494b890733738b2a80cb83eb56b49ca41f4fa2a28e76201",
+    "source": "assets_source/textures/blocks/test_source.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/blocks/water_wheel.png",
+    "sha256": "d7836fd37096779ff82a4663415be788c1d20d8c0f323f957f358d6b1ad7933b",
+    "source": "assets_source/textures/blocks/water_wheel.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/copper_sheet.png",
+    "source": "assets_source/textures/items/copper_sheet.png",
+    "sha256": "01b32a603eea09b6f0b3ff5def3c07d79fb586fc0b68f85a32d207b123306592",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/gear.png",
+    "sha256": "0999ad6a51b09841b553f8cc935d05df68d8c876fb8d553cc86b9343caf25cc1",
+    "source": "assets_source/textures/items/gear.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/gearbox.png",
+    "sha256": "817fa5567a89e732407705ad7ea3008b23be9229aed579e4a8e5e9c80b5ac4a0",
+    "source": "assets_source/textures/items/gearbox.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/golden_sheet.png",
+    "source": "assets_source/textures/items/golden_sheet.png",
+    "sha256": "50853ef8db688545f5cee8e3d02dec9ffca015d78870a855fabfb60eaff7eb25",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/guidebook.png",
+    "sha256": "5fb245846fb7c368d9591058d5f133bf5508879e566e6460f68533467e032754",
+    "source": "assets_source/textures/items/guidebook.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/iron_sheet.png",
+    "source": "assets_source/textures/items/iron_sheet.png",
+    "sha256": "5797a88aa8dbf8b9d5dc512578fe84cf3f6033e201a8b32b79c4c3d1b0785981",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/large_gear.png",
+    "sha256": "bd678a6ae7fbb566d78aa96e71038e598b736bfd01d09e7857c8d28e0eff1929",
+    "source": "assets_source/textures/items/large_gear.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/mechanical_funnel.png",
+    "source": "assets_source/textures/items/mechanical_funnel.png",
+    "sha256": "cd63a9238b32950d5f86b1e7c643ec430471a43b09ec73f394b87946fa1a83b4",
+    "creation": "Original voxel transfer gate with two native block poses",
+    "date": "2026-10-29",
+    "tool": "tools/generate_funnel_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/mechanical_press.png",
+    "source": "assets_source/textures/items/mechanical_press.png",
+    "sha256": "df87aed4513173b5437d8e7942d636fb731effdc3a66ac44656eef5917da8289",
+    "creation": "Original voxel press/sheet asset generated for this project",
+    "date": "2026-10-29",
+    "tool": "tools/generate_press_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/shaft.png",
+    "sha256": "5356a99455864ead746e596c1479e6910016c64d8b8cb69bb485b7d1c1192dc9",
+    "source": "assets_source/textures/items/shaft.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/speed_meter.png",
+    "sha256": "a5bbaf5c793a31f690703c2b74b8630655e2e2e3b6bca19e151838592417fa5c",
+    "source": "assets_source/textures/items/speed_meter.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/stress_meter.png",
+    "sha256": "b826ace5346e98f8cecfeb5c01720f02369c7a5ed17a6572dc0eed5102e392c7",
+    "source": "assets_source/textures/items/stress_meter.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/test_source.png",
+    "sha256": "4529113de5f24d853081e40bb00293c665728c07ff4b2a9e5d3a679e8604731f",
+    "source": "assets_source/textures/items/test_source.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/items/water_wheel.png",
+    "sha256": "f071a29789a46518a27705ee49ce0171c16dc5b2831a307a0d8da00007a7f43f",
+    "source": "assets_source/textures/items/water_wheel.png",
+    "creation": "Original procedural geometry/pixels for this project; no external art input",
+    "date": "2026-10-29",
+    "tool": "tools/generate_kinetic_assets.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_brake.png",
+    "source": "assets_source/textures/ui/manual_brake.png",
+    "sha256": "05a0a795cb2383cc75b0813ff79cd6f6502b6286031f4d566383b567576c8b38",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_crafting_table.png",
+    "source": "assets_source/textures/ui/manual_crafting_table.png",
+    "sha256": "c69fc6e1952ac25c676b98c9c9f66dd8485155a3f3899fe7e79924cf11d632c0",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_disconnect.png",
+    "source": "assets_source/textures/ui/manual_disconnect.png",
+    "sha256": "55924564114695db15b79204e44aa39b3b12599bb6d318872656911119582ac1",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_gears.png",
+    "source": "assets_source/textures/ui/manual_gears.png",
+    "sha256": "72462cef5a34161fb956a7f34a8352a80846acf3a7dd17516314fc4ba31ecab9",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_overview.png",
+    "source": "assets_source/textures/ui/manual_overview.png",
+    "sha256": "199db39b84d564b5e8f8d7cc1b74f5c1caec6a4c89fdac5007c03d56dffbf073",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_reference.png",
+    "source": "assets_source/textures/ui/manual_reference.png",
+    "sha256": "b3fab9c4e14e0f79c01c6b3b1a73be84c158e577da81d2b076c733489531e688",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_shaft.png",
+    "source": "assets_source/textures/ui/manual_shaft.png",
+    "sha256": "339e71a4dc8f509cfc9ced28b7d7f010bfd02a8955a252bb42441800c350af65",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  },
+  {
+    "path": "resource_pack/textures/ui/manual_water.png",
+    "source": "assets_source/textures/ui/manual_water.png",
+    "sha256": "f4342648fc2a652c667aba88867fc1371d2a4f0b69de668e7fd8830902db1d44",
+    "creation": "Original schematic generated for this project; no external images",
+    "date": "2026-10-29",
+    "tool": "tools/generate_guide_images.py",
+    "license": "Distribution license pending project owner decision"
+  }
+]

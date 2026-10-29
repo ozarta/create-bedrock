@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrockworks:craft_water_wheel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrockworks:shaft"
+      },
+      {
+        "item": "minecraft:oak_planks"
+      },
+      {
+        "item": "minecraft:oak_planks"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "result": {
+      "item": "bedrockworks:water_wheel",
+      "count": 1
+    }
+  }
+}

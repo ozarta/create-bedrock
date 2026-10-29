@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrockworks:craft_gear_component"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:iron_nugget"
+      }
+    ],
+    "result": {
+      "item": "bedrockworks:gear_component",
+      "count": 1
+    }
+  }
+}
